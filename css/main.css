@@ -83,6 +83,15 @@
 }
 
 
+/*CSS para banner */
+.sliderother {
+    background: url("../recursos/about.jpg");
+    background-size: cover;
+    background-position: center;
+      height: 50vh;
+    width: 100%;
+  }
+
   /*--css para banner del pie de página*/
   .banner {
     padding: 100px 0;
