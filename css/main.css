@@ -1,0 +1,111 @@
+@import url(./fonts.css);
+
+/*--css para menú de navegación*/
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0.2rem 0.5rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 5rem ;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font-family: "Roboto";
+    text-transform: uppercase;
+    padding: 0.9rem;
+    color: black;
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: linear-gradient(90deg, #030d4e 0%, #d82808 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: linear-gradient(90deg, #030d4e 0%, #d82808 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/*--CSS para Area Inicial*/
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/ 60px var(--roboto);
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph > p{
+    padding: .4rem 0;
+}
+
+/* End About Area */ 
+
+
+/*-- Botones*/
+
+.button{
+    padding: .8rem 2.2rem;
+    font: normal 500 16px/20px;
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+.button.primary-button{
+    background: linear-gradient(90deg, #777777 0%, #2c120e 100%);
+    background-clip: padding-box;
+    color: whitesmoke;
+}
+
+.button.primary-button:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+.button.primary-button::after, .button.secondary-button::after{
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px;  right: -2px;
+    background:  linear-gradient(90deg, #777777 0%, #2c120e 100%);
+    content: ' ';
+    z-index: -1;
+    border-radius: 4px;
+}
+
+
+  /*--css para banner del pie de página*/
+  .banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../recursos/centrolab.jpg) no-repeat center center;
+    background-size: cover;
+  }
+  
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+  }
+  
+  .banner ul {
+    margin-bottom: 0;
+  }
+  
+  .banner-social-buttons {
+    float: right;
+    margin-top: 0;
+  }
+
+  
+
+  
