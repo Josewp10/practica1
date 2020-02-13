@@ -11,13 +11,13 @@
 <body>
     
     <div class="mi_contenedor">
-        <h1>Gestión de estudiantes</h1>
-    <div class="card">
+        <h1 class="text-danger text-center"> <a href="#"><img src="../recursos/logoPh.png" width="200" height="50"></a>  REGISTRO</h1>
+    <div class="card border border-primary">
         <div class="card-body">
             <!--<h5 class="card-title">Card title</h5>-->   
-            <h6 class="card-subtitle mb-2 text-muted">Este formulario crea perfiles de estudiantes</h6>
+            <h6 class="card-subtitle mb-2 text-muted">Registrese y obtenga una cuenta para empezar las simulaciones</h6>
 
-            <form action="javascript:void(0)" onsubmit="crearEstudiantes()">
+            <form action="javascript:void(0)">
                 <div class="form-group">
                 <label for="id">Identificación</label>
                 <input class="form-control" type="number" placeholder="Ingrese su identificación" id="id">
@@ -41,17 +41,17 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="carrera">Correo</label>
+                    <label for="carrera">Carrera</label>
                     <select class="form-control" name="carreras" id="carrera">
-                        <option value="Ingeniería de sistemas">Ingeniería de sistemas</option>
-                        <option value="Ingeniería de civil">Ingeniería de civil</option>
-                        <option value="Derecho">Derecho</option>
-                        <option value="Comunicación">Comunicación</option>
+                        <option value="Ingeniería de sistemas">Ingeniería de Sistemas</option>
+                        <option value="Ingeniería de civil">Ingeniería Civil</option>
+                        <option value="Derecho">Ingeniería Industrial</option>
+                        <option value="Comunicación">Ingeniería Electronica</option>
                         
                     </select>
                 </div>
 
-                <button type="submit" class="btn btn-primary" value="Crear estudiante">Submit</button>
+                <button type="submit" class="btn btn-danger" value="Crear estudiante">Registrarse</button>
             </form>
         </div>
     </div>

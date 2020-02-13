@@ -54,20 +54,21 @@
 /*--CSS para Area Inicial*/
 
 .site-main .about-area{
-    padding: 8rem 5rem;
+    padding: 4rem 3rem;
 }
 
 .site-main .about-area .about-title h2 > span{
     display: block;
-    font: normal bold 49px/ 60px var(--roboto);
+    font: normal bold 49px/ 60px;
     letter-spacing: 21px;
 }
 
 .site-main .about-area .about-title .paragraph > p{
-    padding: .4rem 0;
+    padding: .6rem 0;
 }
 
 /* End About Area */ 
+
 
 
 /*-- Botones*/
@@ -112,7 +113,7 @@
     width: 100%;
   }
   .sliderotherMed {
-    background: url("../recursos/medidas.jpg");
+    background: url("../recursos/centrolab.jpg");
     background-size: cover;
     background-position: center;
       height: 40vh;
@@ -123,14 +124,13 @@
   .banner {
     padding: 100px 0;
     color: #f8f8f8;
-    background: url(../recursos/centrolab.jpg) no-repeat center center;
     background-size: cover;
   }
   
   .banner h2 {
     margin: 0;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
-    font-size: 3em;
+    font-size: 4em;
   }
   
   .banner ul {
@@ -157,6 +157,18 @@
 .img{
     display: block;
 }
+
+.align{
+   align-items: center;
+    padding: 4rem;
+}
+
+
+
+/*--css para login*/
+
+
+
 
 /*--css para banner del pie de página*/
 .banner{
